@@ -3,7 +3,6 @@ import uuid
 from flask import Flask, request
 
 
-FACADE_SERVICE_URL = "http://127.0.0.1:5000/facade_service"
 LOGGING_SERVICE_URL = "http://127.0.0.1:8081/log"
 MESSAGES_SERVICE_URL = "http://127.0.0.1:8082/message"
 
